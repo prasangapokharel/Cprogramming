@@ -5,22 +5,17 @@
 	
 	printf("enter number:");
 	scanf("%d",&n);  
-	
 	 
-	int a;  
-	a= prasanga(n); 
 	
-	
-	printf("%d",a);
+	printf("%d",prasanga(n));
 }
 
 
 
-int prasanga(int n) //120
+ prasanga(int n) //120
 {
 	if(n==0) 
 	return 1;
 	else
-	return n*fctorial(n-1); 
+	return n*(n-1); 
 }
-
