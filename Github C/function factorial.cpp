@@ -11,7 +11,6 @@
 }
 
 
-
  prasanga(int n) //120
 {
 	if(n==0) 
